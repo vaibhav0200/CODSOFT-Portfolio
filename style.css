@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Add smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Change color on hover */
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    animation:rotateProfile 4s linear infinite;
+}
+@keyframes rotateProfile {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.about-content {
+    margin-left: 220px; /* Adjust as needed */
+}
+
+.about-content p {
+    margin-bottom: 10px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 200px;
+    margin-right: 20px;
+    transition: transform 0.3s;
+}
+.project img:hover {
+    transform: scale(1.1); /* Apply scaling effect on hover */
+}
+
+.project-details h3 {
+    margin-top: 0;
+}
+
+.project-details p {
+    margin-bottom: 10px;
+}
